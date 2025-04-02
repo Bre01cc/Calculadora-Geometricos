@@ -4,6 +4,7 @@ package br.com.engsenai.Calculadora;
 		private double lado;
 		public double area;
 		public double perimetro;
+		
 	public void setLado(double lado) {
 		this.lado= lado;
 	}
@@ -11,7 +12,7 @@ package br.com.engsenai.Calculadora;
 		perimetro = lado * 4;
 	}
 	public void calcularArea() {
-		area=(lado*lado);
+		area=lado*lado;
 	}
 	public void mostrarDados() {
  		System.out.println("--------------");
